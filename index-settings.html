@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html lang="fa" dir="rtl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>تنظیمات</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css">   
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+<script src="https://kit.fontawesome.com/e7f04c1481.js" crossorigin="anonymous"></script>
+</head>
+    
+<body class="theme-light">
+    
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+    
+<div id="page">
+    
+    <!-- header and footer bar go here-->
+	
+    <div class="header header-fixed header-auto-show header-logo-app">
+        <a href="index.html" class="header-title">تنظیمات</a>
+        <a href="#" data-back-button class="header-icon header-icon-1"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" data-toggle-theme class="header-icon header-icon-2 show-on-theme-dark"><i class="fas fa-sun"></i></a>
+        <a href="#" data-toggle-theme class="header-icon header-icon-2 show-on-theme-light"><i class="fas fa-moon"></i></a>
+        <a href="#" data-menu="menu-highlights" class="header-icon header-icon-3"><i class="fas fa-brush"></i></a>
+    </div>
+    <div id="footer-bar" class="footer-bar-5">
+        <a href="index-components.html"><i data-feather="heart" data-feather-line="1" data-feather-size="21" data-feather-color="red-dark" data-feather-bg="red-fade-light"></i><span>درباره</span></a>
+        <a href="index-media.html"><i data-feather="image" data-feather-line="1" data-feather-size="21" data-feather-color="green-dark" data-feather-bg="green-fade-light"></i><span>رسانه</span></a>
+        <a href="index.html"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue-dark" data-feather-bg="blue-fade-light"></i><span>خانه</span></a>
+        <a href="index-pages.html"><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="brown-dark" data-feather-bg="brown-fade-light"></i><span>صفحات</span></a>
+        <a href="index-settings.html" class="active-nav"><i data-feather="settings" data-feather-line="1" data-feather-size="21" data-feather-color="dark-dark" data-feather-bg="gray-fade-light"></i><span>تنظیمات</span></a>
+    </div>
+    
+    <div class="page-content">
+        
+        <div class="page-title page-title-small">
+            <h2><a href="#" data-back-button><i class="fa fa-arrow-right"></i></a>تنظیمات</h2>
+            <a href="#" data-menu="menu-main" class="bg-fade-highlight-light shadow-xl preload-img" data-src="icon.png"></a>
+        </div>
+        <div class="card header-card shape-rounded" data-card-height="210">
+            <div class="card-overlay bg-highlight opacity-95"></div>
+            <div class="card-overlay dark-mode-tint"></div>
+        </div>
+        
+        <div class="card card-style">
+            <div class="content mt-0 mb-2">
+                <div class="list-group list-custom-large mb-4">
+                    <a href="#" data-toggle-theme class="show-on-theme-light">
+                        <i class="fa font-14 fa-moon bg-brown-dark rounded-sm"></i>
+                        <span>قالب بندی شب</span>
+                        <strong>به صورت خودکار متناسب با دستگاه شما تنظیم می شود!</strong>
+                        <i class="fa fa-angle-left me-2"></i>
+                    </a>     
+                    <a href="#" data-toggle-theme class="show-on-theme-dark">
+                        <i class="fa font-14 fa-lightbulb bg-yellow-dark rounded-sm"></i>
+                        <span>قالب بندی روز</span>
+                        <strong>به صورت خودکار متناسب با دستگاه شما تنظیم می شود!</strong>
+                        <i class="fa fa-angle-left me-2"></i>
+                    </a>     
+                    <a href="#" data-menu="menu-highlights">
+                        <i class="fa font-14 fa-brush bg-highlight color-white rounded-sm"></i>
+                        <span>انتخاب رنگ بندی</span>
+                        <strong>هر رنگی که مورد علاقه شما است را انتخاب کنید!</strong>
+                        <i class="fa fa-angle-left me-2"></i>
+					<a href="#" data-menu="menu-tips-1" class="border-0">
+                        <i class="fa font-14 fa-gift bg-magenta-light rounded-sm"></i>
+                        <span>برای شروع کلیک کنید</span>
+                        <strong>توضیحاتی مختصر در راجب با وب اپلیکیشن به شما می دهد!</strong>
+                        <i class="fa fa-angle-left me-2"></i>
+                    </a>  	
+                </div>
+            </div>  
+        </div>
+       
+        <!-- footer and footer card-->
+        <div class="footer" data-menu-load="menu-footer.html"></div>  
+    </div> 
+    <!-- end of page content-->
+	
+	
+    <div id="menu-share" 
+         class="menu menu-box-bottom menu-box-detached rounded-m" 
+         data-menu-load="menu-share.html"
+         data-menu-height="420" 
+         data-menu-effect="menu-over">
+    </div> 
+	
+    <div id="menu-highlights" 
+         class="menu menu-box-bottom menu-box-detached rounded-m" 
+         data-menu-load="menu-colors.html"
+         data-menu-height="510" 
+         data-menu-effect="menu-over">        
+    </div>
+    
+    <div id="menu-main"
+         class="menu menu-box-right menu-box-detached rounded-m"
+         data-menu-width="260"
+         data-menu-load="menu-main.html"
+         data-menu-active="nav-settings"
+         data-menu-effect="menu-over">  
+    </div>   
+    
+	
+    <!-- Tips Menu 1-->
+	
+    <div id="menu-tips-1" 
+         class="menu menu-box-bottom menu-box-detached rounded-m" 
+         data-menu-height="350" 
+         data-menu-effect="menu-over">
+
+        <div class="card header-card shape-rounded" data-card-height="200">
+            <div class="card-overlay bg-highlight opacity-95"></div>
+            <div class="card-overlay dark-mode-tint"></div>
+            <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+        </div>
+
+        <div class="mt-3 pt-1 pb-1" style="position:relative; z-index:10;">
+            <h1 class="text-center">
+                <i data-feather="smartphone" 
+                   data-feather-line="1" 
+                   data-feather-size="60" 
+                   data-feather-color="gray-dark" 
+                   data-feather-bg="none"></i>
+            </h1>
+            <h1 class="text-center color-white font-22 font-700">وب اپلیکیشن بسیار سریع و قدرتمند</h1>
+        </div>
+        <div class="card card-style">
+            <p class="boxed-text-xl pt-3 mb-3">
+                این وب اپلیکیشن به گونه ایی طراحی و ساخته شده است که شما به محض وارد کردن آدرس این وب اپلیکیشن در مرورگر خود گزینه نصب برایتان نمایان می شود و می توانید در هر دستگاهی که دارید، نصب و حتی اگر اینترنت هم نداشتید می توانید تا آن جایی که در وب اپلیکیشن با اینترنت کار کرده اید را آفلاین مشاهده کرده و استفاده کنید!
+            </p>
+        </div>       
+        <div class="row mb-0">
+            <div class="col-6">
+                <a href="#" class="btn btn-border btn-sm ms-3 rounded-s btn-full shadow-l color-highlight border-highlight close-menu text-uppercase font-700">بستن</a>
+            </div>
+            <div class="col-6">
+                <a data-menu="menu-tips-2" href="#" class="btn btn-sm me-3 rounded-s btn-full shadow-l bg-highlight font-700 text-uppercase">1/5 - بعدی</a>
+            </div>
+        </div>
+    </div>        
+    
+    <!-- Tips Menu 2-->
+    <div id="menu-tips-2" 
+         class="menu menu-box-bottom menu-box-detached rounded-m" 
+         data-menu-height="350" 
+         data-menu-effect="menu-over">
+        
+        <div class="card header-card shape-rounded" data-card-height="200">
+            <div class="card-overlay bg-highlight opacity-95"></div>
+            <div class="card-overlay dark-mode-tint"></div>
+            <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+        </div>
+
+        <div class="mt-3 pt-1 pb-1" style="position:relative; z-index:10;">
+            <h1 class="text-center">
+                <i data-feather="moon" 
+                   data-feather-line="1" 
+                   data-feather-size="60" 
+                   data-feather-color="gray-dark" 
+                   data-feather-bg="none"></i>
+            </h1>
+            <h1 class="text-center color-white font-22 font-700">تنظیم خودکار قالب بندی ها</h1>
+        </div>
+        <div class="card card-style">
+            <p class="boxed-text-xl pt-3 mb-3">
+                در این وب اپلیکیشن قابلیتی گنجانده شده است که متناسب با تنظیمی که در دستگاه خود انجام داده اید ، به صورت خودکار قالب بندی شب یا روز را برایتان اعمال می کند تا آسیب کمتری به چشم وارد شود!
+            </p>
+        </div>       
+        <div class="row mb-0">
+            <div class="col-6">
+                <a href="#" class="btn btn-border btn-sm ms-3 rounded-s btn-full shadow-l color-highlight border-highlight close-menu text-uppercase font-700">بستن</a>
+            </div>
+            <div class="col-6">
+                <a data-menu="menu-tips-3" href="#" class="btn btn-sm me-3 rounded-s btn-full shadow-l bg-highlight font-700 text-uppercase">2/5 - بعدی</a>
+            </div>
+        </div>
+    </div>    
+    
+    <!-- Tips Menu 3-->
+    <div id="menu-tips-3" 
+         class="menu menu-box-bottom menu-box-detached rounded-m" 
+         data-menu-height="350" 
+         data-menu-effect="menu-over">
+
+        <div class="card header-card shape-rounded" data-card-height="200">
+            <div class="card-overlay bg-highlight opacity-95"></div>
+            <div class="card-overlay dark-mode-tint"></div>
+            <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+        </div>
+
+        <div class="mt-3 pt-1 pb-1" style="position:relative; z-index:10;">
+            <h1 class="text-center">
+                <i data-feather="archive" 
+                   data-feather-line="1" 
+                   data-feather-size="60" 
+                   data-feather-color="gray-dark" 
+                   data-feather-bg="none"></i>
+            </h1>
+            <h1 class="text-center color-white font-22 font-700">حجم بسیار کم وب اپلیکیشن</h1>
+        <div class="card card-style">
+            <p class="boxed-text-xl pt-3 mb-3">
+                در مقایسه با اپلیکیشن های امروزی این وب اپلیکیشن حجم بسیار کمی با آنها داشته و همین سبب سریع شدن این وب اپلیکیشن شده و باعث اشغال کمی از حافظه دستگاه کاربر شده است!
+            </p>
+        </div>       
+        <div class="row mb-0">
+            <div class="col-6">
+                <a href="#" class="btn btn-border btn-sm ms-3 rounded-s btn-full shadow-l color-highlight border-highlight close-menu text-uppercase font-700">بستن</a>
+            </div>
+            <div class="col-6">
+                <a data-menu="menu-tips-4" href="#" class="btn btn-sm me-3 rounded-s btn-full shadow-l bg-highlight font-700 text-uppercase">3/5 - بعدی</a>
+            </div>
+        </div>
+    </div>      
+    
+    <!-- Tips Menu 4-->
+    <div id="menu-tips-4" 
+         class="menu menu-box-bottom menu-box-detached rounded-m" 
+         data-menu-height="350" 
+         data-menu-effect="menu-over">
+
+        <div class="card header-card shape-rounded" data-card-height="200">
+            <div class="card-overlay bg-highlight opacity-95"></div>
+            <div class="card-overlay dark-mode-tint"></div>
+            <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+        </div>
+
+        <div class="mt-3 pt-1 pb-1" style="position:relative; z-index:10;">
+            <h1 class="text-center">
+                <i data-feather="zap" 
+                   data-feather-line="1" 
+                   data-feather-size="60" 
+                   data-feather-color="gray-dark" 
+                   data-feather-bg="none"></i>
+            </h1>
+            <h1 class="text-center color-white font-22 font-700">سریع و بسیار سریع</h1>
+        </div>
+        <div class="card card-style">
+            <p class="boxed-text-xl pt-3 mb-3">
+			این وب اپلیکیشن در تست هایی که انجام شده است در مقایسه با میلیون ها سایت و اپلیکیشن سرعت بسیار باور نکردنی را داشته که این سرعت حاصل تلاش ماه ها زحمت برای کمتر کردن حجم کدها و فایل های این وب اپلیکیشن بوده است و در مقایسه با سایر سایت ها اپلیکیشن ها حجم بسیار کمی دارد!
+            </p>
+        </div>       
+        <div class="row mb-0">
+            <div class="col-6">
+                <a href="#" class="btn btn-border btn-sm ms-3 rounded-s btn-full shadow-l color-highlight border-highlight close-menu text-uppercase font-700">بستن</a>
+            </div>
+            <div class="col-6">
+                <a data-menu="menu-tips-5" href="#" class="btn btn-sm me-3 rounded-s btn-full shadow-l bg-highlight font-700 text-uppercase">4/5 - بعدی</a>
+            </div>
+        </div>
+    </div>      
+
+    <!-- Tips Menu 5-->
+    <div id="menu-tips-5" 
+         class="menu menu-box-bottom menu-box-detached rounded-m" 
+         data-menu-height="360" 
+         data-menu-effect="menu-over">
+
+        <div class="card header-card shape-rounded" data-card-height="200">
+            <div class="card-overlay bg-highlight opacity-95"></div>
+            <div class="card-overlay dark-mode-tint"></div>
+            <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
+        </div>
+
+        <div class="mt-3 pt-1 pb-1" style="position:relative; z-index:10;">
+            <h1 class="text-center">
+                <i data-feather="smile" 
+                   data-feather-line="1" 
+                   data-feather-size="60" 
+                   data-feather-color="gray-dark" 
+                   data-feather-bg="none"></i>
+            </h1>
+            <h1 class="text-center color-white font-22 font-700">رنگ بندی مورد علاقه خود را انتخاب کنید</h1>
+        </div>
+        <div class="card card-style">
+            <p class="boxed-text-xl pt-3 mb-3">
+			در این وب اپلیکیشن قابلیتی با عنوان رنگ بندی گنجانده شده است که بیش از 15 مورد رنگ برتر و مورد علاقه کاربران در آن قرار گرفته شده است تا کاربران بتوانند وب اپلیکیشن را با سلیقه خود برای خود استفاده کنند!
+			</p>
+        </div>       
+        <a href="#" class="close-menu btn btn-m btn-margins rounded-sm btn-full shadow-l bg-highlight text-uppercase font-700">تمام</a>
+    </div>    
+
+
+
+    
+</div>    
+
+
+
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script src="https://kit.fontawesome.com/e7f04c1481.js" crossorigin="anonymous"></script>
+</body>
