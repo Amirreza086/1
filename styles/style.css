@@ -2,8 +2,7 @@
 /*Typography Settings*/
 body {
   font-size: 13px;
-  font-family: "Lalezar", sans-serif !important;
-  line-height: 24px !important;
+  font-family: "Lalezar";
   color: #727272 !important;
   background-color: #eef2f1;
 }
