@@ -16,28 +16,22 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 24px;
-  line-height: 30px;
-  padding-bottom: 5px;
 }
 
 h2 {
   font-size: 22px;
-  line-height: 25px;
 }
 
 h3 {
   font-size: 20px;
-  line-height: 24px;
 }
 
 h4 {
   font-size: 18px;
-  line-height: 23px;
 }
 
 h5 {
   font-size: 16px;
-  line-height: 22px;
 }
 
 a {
@@ -47,8 +41,6 @@ a {
 
 p {
   color: #727272;
-  margin-bottom: 30px;
-  padding-bottom: 0px;
 }
 
 /*Page Stucture Settings*/
